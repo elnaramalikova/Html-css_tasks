@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.page-bg{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("../img/backg.png");
+    background-position: center;
+    background-size: cover;
+}
+header{
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+   text-decoration: none;
+    display: flex;
+}
+.text{
+    font-family: ﻿AdobeInvisFont, ﻿Verdana-Bold, ﻿Courier;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 255);
+    flex-direction: column;
+    display: flex;
+    padding: 0 5px;
+}
+.contact{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-item{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card-text{
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
